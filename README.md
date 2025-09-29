@@ -62,6 +62,10 @@ This repository contains a simple Python calculator application with **intention
 2. Review the CI logs to identify what linting errors exist in `app.py`
 3. Take note of all the errors reported by flake8 and pylint
 
+## Step 5: Create a New Branch
+1. Create and switch to a new branch called `fix-lint-errors`
+2. 
+
 ## Step 4: Fix the Linting Errors
 
 1. Open `app.py` in your editor
