@@ -5,7 +5,7 @@ This repository contains a simple Python calculator application with **intention
 ## Step 1: Fork and Clone the Repository
 
 1. Fork this repository to your GitHub account by clicking the "Fork" button
-2. Clone your forked repository to your local machine:
+2. Clone your forked repository to your local machine
 
 ## Step 2: Add YAML File
 
@@ -62,32 +62,42 @@ This repository contains a simple Python calculator application with **intention
 2. Review the CI logs to identify what linting errors exist in `app.py`
 3. Take note of all the errors reported by flake8 and pylint
 
-## Step 4: Fix the Linting Errors
+## Step 4: Create a New Branch
+
+1. Pull the latest changes from your repository:
+2. Create and switch to a new branch called `fix-lint-errors`:
+
+
+## Step 5: Fix the Linting Errors
 
 1. Open `app.py` in your editor
 2. Fix all the linting errors identified by flake8 and pylint
 3. Save your changes
-4. Commit and Push Your Fixes
 
-## Step 5: Create a Pull Request
+## Step 6: Commit and Push Your Fixes
 
-Go to your repository on GitHub
-You should see a notification to create a Pull Request for your fix-lint-errors branch
-Click "Compare & pull request"
-Add a description of what you fixed
-Click "Create pull request"
+1. Add and commit your changes
+2. Push the branch to your GitHub repository
 
-## Step 6: Observe the CI Pipeline
 
-On the Pull Request page, watch the CI pipeline run
-Verify the pipeline passes successfully with a green checkmark ✅
-Once the checks pass, click "Merge pull request"
-Click "Confirm merge" to merge your changes into the main branch
+## Step 7: Create a Pull Request
 
+1. Go to your repository on GitHub
+2. You should see a notification to create a Pull Request for your `fix-lint-errors` branch
+3. Click "Compare & pull request"
+4. Add a description of what you fixed
+5. Click "Create pull request"
+
+## Step 8: Observe the CI Pipeline
+
+1. On the Pull Request page, watch the CI pipeline run
+2. Verify the pipeline passes successfully with a green checkmark ✅
+3. Once the checks pass, click "Merge pull request"
+4. Click "Confirm merge" to merge your changes into the main branch
 
 ## 📝 Submission Requirements
 
 Submit the following:
 
 1. **GitHub Repository URL**: Link to your forked repository
-2. **Screenshot**: Capture of the successful CI pipeline run (green checkmark in Actions tab)
+2. **Screenshot**: Capture of the successful CI pipeline run (green checkmark on PR page)
