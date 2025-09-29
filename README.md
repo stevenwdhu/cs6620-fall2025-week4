@@ -62,10 +62,6 @@ This repository contains a simple Python calculator application with **intention
 2. Review the CI logs to identify what linting errors exist in `app.py`
 3. Take note of all the errors reported by flake8 and pylint
 
-## Step 5: Create a New Branch
-1. Create and switch to a new branch called `fix-lint-errors`
-2. 
-
 ## Step 4: Fix the Linting Errors
 
 1. Open `app.py` in your editor
@@ -73,11 +69,21 @@ This repository contains a simple Python calculator application with **intention
 3. Save your changes
 4. Commit and Push Your Fixes
 
-## Step 5: Observe the CI Pipeline
+## Step 5: Create a Pull Request
 
-1. Go to the "Actions" tab in your GitHub repository
-2. Watch the CI pipeline run
-3. Verify the pipeline passes successfully with a green checkmark ✅
+Go to your repository on GitHub
+You should see a notification to create a Pull Request for your fix-lint-errors branch
+Click "Compare & pull request"
+Add a description of what you fixed
+Click "Create pull request"
+
+## Step 6: Observe the CI Pipeline
+
+On the Pull Request page, watch the CI pipeline run
+Verify the pipeline passes successfully with a green checkmark ✅
+Once the checks pass, click "Merge pull request"
+Click "Confirm merge" to merge your changes into the main branch
+
 
 ## 📝 Submission Requirements
 
