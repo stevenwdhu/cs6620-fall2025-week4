@@ -84,20 +84,16 @@ This repository contains a simple Python calculator application with **intention
 
 1. Go to your repository on GitHub
 2. You should see a notification to create a Pull Request for your `fix-lint-errors` branch
-3. Click "Compare & pull request"
-4. Add a description of what you fixed
-5. Click "Create pull request"
+3. Click "Compare & pull request" to compare from `fix-lint-errors` branch to your main branch
+4. Click "Create pull request"
 
-## Step 8: Observe the CI Pipeline
-
-1. On the Pull Request page, watch the CI pipeline run
-2. Verify the pipeline passes successfully with a green checkmark ✅
-3. Once the checks pass, click "Merge pull request"
-4. Click "Confirm merge" to merge your changes into the main branch
+## Step 8: Verify on Actions Page
+1. Go to the "Actions" tab in your GitHub repository
+2. You should see the successful workflow run for your merged PR
 
 ## 📝 Submission Requirements
 
 Submit the following:
 
 1. **GitHub Repository URL**: Link to your forked repository
-2. **Screenshot**: Capture of the successful CI pipeline run (green checkmark on PR page)
+2. **Screenshot**: Capture of the successful CI pipeline run (green checkmark on Actions page)
